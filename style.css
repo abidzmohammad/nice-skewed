@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: grid;
+    place-items: center;
+    height: 650px;
+    background-image: linear-gradient(to bottom, rgba(0, 136, 120, 0.8), rgba(174, 67, 7, 0.5)), url(./media/dmil.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    transition: all 1.5s ease-in-out;
+    -webkit-transition: all 1.5s ease-in-out;
+    -moz-transition: all 1.5s ease-in-out;
+    -ms-transition: all 1.5s ease-in-out;
+    -o-transition: all 1.5s ease-in-out;
+}
+
+header:hover {
+    border-bottom-left-radius: 50% 45%;
+    border-bottom-right-radius: 50% 45%;
+}
+
+.content {
+    text-align: center;
+}
+
+.content h1 {
+    color: #fff;
+    font-size: 80px;
+    line-height: 2;
+}
+
+.content p {
+    width: 60%;
+    color: #fff;
+    text-align: center;
+    margin: 0 auto 50px;
+    line-height: 1.5;
+}
+
+.content a {
+    text-decoration: none;
+    color: #fff;
+    background: #31e368a8;
+    padding: 13px 30px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    transition: all 0.5s ease-in;
+    -webkit-transition: all 0.5s ease-in;
+    -moz-transition: all 0.5s ease-in;
+    -ms-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+}
+
+.content a:hover {
+    background-color: aquamarine;
+    color: rgb(70, 70, 70);
+}
+
+section h1 {
+    color: rgb(5, 61, 31);
+    font-size: 70px;
+    text-align: center;
+    margin: 30px 0;
+}
+
+section p {
+    text-align: justify;
+    margin: 0 auto 50px;
+    line-height: 2.5;
+    padding: 100px;
+}
